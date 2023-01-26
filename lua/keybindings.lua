@@ -65,8 +65,6 @@ map('n', '<leader>xq', '<cmd>TroubleToggle quickfix<CR>', opt)
 -- yanky
 vim.keymap.set({"n","x"}, "p", "<Plug>(YankyPutAfter)")
 vim.keymap.set({"n","x"}, "P", "<Plug>(YankyPutBefore)")
-vim.keymap.set({"n","x"}, "gp", "<Plug>(YankyGPutAfter)")
-vim.keymap.set({"n","x"}, "gP", "<Plug>(YankyGPutBefore)")
 vim.keymap.set({"n","x"}, "y", "<Plug>(YankyYank)")
 
 -- ufo
@@ -122,3 +120,10 @@ vim.api.nvim_create_autocmd("LspAttach",{
         vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, {buffer=args.buf})
     end,
 })
+
+-- map('n', 'gpd', '<cmd>lua require("goto-preview").goto_preview_definition()<CR>', opt)
+-- map('n', 'gpi', '<cmd>lua require("goto-preview").goto_preview_implementation()<CR>', opt)
+-- map('n', 'gpr', '<cmd>lua require("goto-preview").goto_preview_references()<CR>', opt)
+-- map('n', 'gP', '<cmd>lua require("goto-preview").close_all_win()<CR>', opt)
+
+

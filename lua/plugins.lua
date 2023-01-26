@@ -119,6 +119,12 @@ return require('packer').startup(function()
     -- nvim-ufo
     use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
 
+    -- nvim-comment-frame
+    use {'s1n7ax/nvim-comment-frame', requires = {'nvim-treesitter'}}
+
+    -- goto-preview
+    use 'rmagatti/goto-preview'
+
     -- copilot
     -- use 'github/copilot.vim'
 

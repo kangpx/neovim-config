@@ -34,6 +34,8 @@ require('plugin-config/dapui')
 require('plugin-config/nvim-lint')
 require('plugin-config/yanky')
 require('plugin-config/nvim-ufo')
+require('plugin-config/nvim-comment-frame')
+require('plugin-config/goto-preview')
 
 -- lsp
 require('lsp-config/lsp_related')

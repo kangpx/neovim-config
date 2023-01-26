@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/kangpx/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["goto-preview"] = {
+    loaded = true,
+    path = "/home/kangpx/.local/share/nvim/site/pack/packer/start/goto-preview",
+    url = "https://github.com/rmagatti/goto-preview"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/kangpx/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -158,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kangpx/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
+  ["nvim-comment-frame"] = {
+    loaded = true,
+    path = "/home/kangpx/.local/share/nvim/site/pack/packer/start/nvim-comment-frame",
+    url = "https://github.com/s1n7ax/nvim-comment-frame"
   },
   ["nvim-cursorline"] = {
     loaded = true,
