@@ -28,6 +28,13 @@ map("n", "<A-l>", "<C-w>l", opt)
 -- ctrl + backspace 删除词
 map('i', '<C-H>', '<C-W>', opt)
 
+-- 分割窗口
+map('n', '<leader>sv', '<C-w>v', opt) -- 水平新增窗口
+map('n', '<leader>sh', '<C-w>s', opt) -- 垂直新增窗口
+map('n', '<leader>sc', '<C-w>c', opt) -- 关闭当前窗口
+
+-- 取消高亮
+map('n', '<leader>nh', ':nohl<CR>', opt)
 
 --插件快捷键
 -- Telescope
@@ -39,7 +46,7 @@ map("n", "<leader>y", ":lua require('telescope').extensions.yank_history.yank_hi
 -- nvimTree
 map('n', '<C-n>', ':NvimTreeToggle<CR>', opt)
 
--- bufferline
+-- barbar
 map("n", "<C-h>", ":BufferPrevious<CR>", opt)
 map("n", "<C-l>", ":BufferNext<CR>", opt)
 map("n", "<C-c>", ":BufferClose<CR>", opt)

@@ -34,7 +34,7 @@ end
 -- Only depend on `nvim-treesitter/queries/filetype/folds.scm`,
 -- performance and stability are better than `foldmethod=nvim_treesitter#foldexpr()`
 require('ufo').setup({
-    open_fold_hl_timeout = 100,
+    open_fold_hl_timeout = 0,
 
     fold_virt_text_handler = handler,
 

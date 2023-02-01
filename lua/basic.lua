@@ -110,10 +110,11 @@ vim.o.pumheight = 10
 -- always show tabline
 vim.o.showtabline = 2
 
--- 皮肤设置
-vim.o.background=dark
+-- colorscheme
 vim.cmd[[
     colorscheme tokyonight
-    set clipboard+=unnamedplus
 ]]
+
+-- system clipboard
+vim.opt.clipboard:append("unnamedplus")
 
